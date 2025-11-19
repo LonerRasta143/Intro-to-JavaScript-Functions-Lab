@@ -34,3 +34,11 @@ function isCharAVowel(vowel){
 }
 console.log('Exercise 3 Result:', isCharAVowel("a"));
 
+// excercise 4
+
+function generateEmail(name, domain){
+    return name + "@" + domain;
+}
+
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
+
