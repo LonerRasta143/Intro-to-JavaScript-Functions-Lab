@@ -7,9 +7,9 @@
 //         return y;
 //     }
 // }
-//Excercise 2
-// console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
 
+// console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
+//Excercise 2
 function isAdult(age){
 
     if (age <= 18){
@@ -19,3 +19,6 @@ function isAdult(age){
     }
 }
 console.log('Exercise 2 Result:', isAdult(21));
+
+//Excercise 3
+
