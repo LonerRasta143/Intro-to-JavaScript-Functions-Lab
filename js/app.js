@@ -42,3 +42,18 @@ function generateEmail(name, domain){
 
 console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
+//excercise 5
+
+function greetUser(name, timeOfDay){
+    return "Good" +" " + timeOfDay +" " + name
+
+}
+
+console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+
+//excercise 6
+function maxOfThree(a, b, c){
+    
+
+
+}
