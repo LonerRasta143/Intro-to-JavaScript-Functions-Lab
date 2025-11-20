@@ -65,3 +65,13 @@ function maxOfThree(a, b, c) {
 
 }
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+
+//Excercise 7
+
+function calculateTip(amount, tipPercentage){
+    return ( amount*tipPercentage/ 100
+    )
+
+}
+console.log('Exercise 7 Result:', calculateTip(50, 20));
+
