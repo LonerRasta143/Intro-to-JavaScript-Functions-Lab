@@ -75,3 +75,10 @@ function calculateTip(amount, tipPercentage){
 }
 console.log('Exercise 7 Result:', calculateTip(50, 20));
 
+// excercise 8
+
+function convertTemperature(temp, scale){
+    return(temp + 32 * 1.8 + scale)
+
+}
+console.log('Exercise 8 Result:', convertTemperature(32, "C"));
