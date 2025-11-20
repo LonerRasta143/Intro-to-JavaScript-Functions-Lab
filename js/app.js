@@ -52,8 +52,16 @@ function greetUser(name, timeOfDay){
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 
 //excercise 6
-function maxOfThree(a, b, c){
-    
-
+function maxOfThree(a, b, c) {
+    if (a>b || a>c) {
+        return a
+    }
+    else if (b>a ||b>c){
+        return b
+    }
+    else if (c>a || c>b){
+        return c
+    }
 
 }
+console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
